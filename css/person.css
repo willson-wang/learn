@@ -1,0 +1,141 @@
+@charset "utf-8";
+/*页面包裹层*/
+#person-wrap {
+	position: absolute;
+	width: 18.75rem;
+	background: #efefef;
+	top: 8.1rem;
+	left: 0;
+	overflow-y: auto;
+	overflow-x: hidden;
+	display: none;
+}
+/*person头部*/
+#person-header {
+	position: fixed;
+	width: 18.75rem;
+	background: #ffd600;
+	top: 0;
+	left: 0;
+	display: none;
+}
+.vip {
+	display: block;
+	width: 18.75rem;
+	height: 6rem;
+	padding-top: 0.1px;
+	background: url(../img/person.png) no-repeat 1.1rem 1rem,url(../img/logo.png) no-repeat 5.4rem 2.9rem;
+	background-size: 19%;
+}
+.vip span:first-of-type {
+	display: block;
+	font-size: 0.8rem;
+	color: #fff;
+	margin: 1.5rem 0  0.4rem 0;
+	text-indent: 5.4rem;
+	font-weight: bold;
+}
+.vip span:last-of-type {
+	display: block;
+	width: 3.5rem;
+	height: 1rem;
+	font-size: 0.6rem;
+	color: #e64f1a;
+	text-align: center;
+	line-height: 1rem;
+	border-radius: 0.2rem;
+	margin-left: 5.8rem;
+}
+.shop-collect {
+	font-size: 0;
+	background: #f3c800;
+}
+.shop-collect a {
+	display: inline-block;
+	width: 9.375rem;
+	height: 2.1rem;
+	font-size: 0.8rem;
+	color: #fff;
+	line-height: 2.1rem;
+	text-indent: 4.2rem;
+}
+.shop-collect a:first-of-type {
+	background: url(../img/person-1.png) no-repeat 2.3rem center;
+	background-size: 12%;
+}
+.shop-collect a:last-of-type {
+	background: url(../img/person2.png) no-repeat 2.3rem center;
+	background-size: 12%;
+}
+
+/*我的订单栏目*/
+#person-pay {
+	width: 18.75rem;
+	background: #fff;
+	margin: 0.3rem 0 0.6rem 0;
+}
+.order-display a {
+	display: block;
+	width: 16.75rem;
+	height: 2.9rem;
+	line-height: 2.9rem;
+	font-size: 0.8rem;
+	color: #333;
+	padding: 0 1rem;
+	border-bottom: 1px solid #e0e0e0;
+}
+.order-display a span {
+	float: right;
+	color: #999;
+}
+.pay-list li{
+	float: left;
+	width: 4.6875rem;
+}
+.pay-list li a {
+	display: block;
+	width: 4.6875rem;
+	height: 4.2rem;
+	text-align: center;
+	line-height: 6.8rem;
+	font-size: 0.7rem;
+	color: #333;
+	background: url(../img/person3.png) no-repeat 1.8rem 1.3rem;
+	background-size: 25%;
+}
+
+/*积分商城栏目*/
+#person-score {
+	width: 18.75rem;
+	background: #fff;
+	margin-bottom: 1.8rem;
+}
+.score-list li {
+	float: left;
+	width: 4.6875rem;
+}
+.score-list li a {
+	display: block;
+	width: 4.6875rem;
+	height: 6rem;
+	text-align: center;
+	line-height: 8.5rem;
+	font-size: 0.7rem;
+	color: #333;
+	background: url(../img/person4.png) no-repeat 1.6rem 1.8rem;
+	background-size: 35%;
+}
+#exit {
+	width: 18.75rem;
+	background: #fff;
+	margin-bottom: 0.3rem;
+}
+#exit a {
+	display: block;
+	width: 18.75rem;
+	height: 2.7rem;
+	text-align: center;
+	line-height: 2.7rem;
+	color: #333;
+	font-size: 0.8rem;
+}

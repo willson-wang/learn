@@ -1,0 +1,200 @@
+@charset "utf-8";
+/*包裹层div*/
+#wrap-supermarket {
+	position: absolute;
+	left: 0;
+	top: 2.75rem;
+	width: 18.75rem;
+	padding-top: 0.1px;
+	padding-bottom: 2.9rem;
+	display: none;
+}
+
+/*左侧菜单栏*/
+#menu {
+	width: 4.45rem;
+	background: #f8f8f8;
+	float: left;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+.me-list li {
+	width: 4.45rem;
+	height: 2.45rem;
+	border-bottom: 1px solid #CCC;
+	padding-top: 0.1px;
+}
+.me-list li span {
+	display: block;
+	width: 3.85rem;
+	height: 2.2rem;
+	border-left:0.3rem solid transparent;
+	margin-top: 0.125rem;
+	font-size: 0.7rem;
+	color: #6d6d6d;
+	line-height: 2.2rem;
+	text-indent: 0.6rem;
+}
+.me-list li:first-of-type span {
+	border-left:0.3rem solid #ffe065;
+}
+.me-list li:last-of-type span {
+	width: 4.15rem;
+	text-indent: 0.1rem;
+}
+
+/*右侧商品详情列表*/
+#content {
+	width: 14.05rem;
+	float: right;
+	position: relative;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+.order {
+	position: fixed;
+	width: 14.05rem;
+	height: 2.45rem;
+	border-bottom: 1px solid #CCC;
+	left: 4.7rem;
+	top: 2.75rem;
+	z-index: 2;
+	background: rgba(255,255,255,0.9);
+}
+.order span {
+	float: left;
+	width: 7.025rem;
+	height: 2.45rem;
+	font-size: 0.7rem;
+	color: #6d6d6d;
+	line-height: 2.45rem;
+	text-align: center;
+}
+.content-wrap {
+	width: 14.05rem;
+	padding-top: 2.45rem;
+	position: absolute;
+	left: 0;
+	top: 0;
+	display: none;
+} 
+.dis-blk {
+	display: block;
+}
+.content-wrap a {
+	display: block;
+	width: 14.05rem;
+	border-bottom: 1px solid #ccc;
+	padding: 0.3rem 0;
+}
+.shop-list {
+	position: relative;
+}
+.shop-list dt {
+	float: left;
+	width: 4.8rem;
+	height: 4.8rem;
+	background: url(../img/商品石榴.jpg) no-repeat center;
+	background-size: 100%;
+	margin: 0 0.2rem;
+}
+.shop-list dd {
+	float: right;
+}
+.shop-title {
+	width: 8.85rem;
+	height: 1.2rem;
+	font-size: 0.7rem;
+	color: #232b33;
+	line-height: 1.2rem;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.collect {
+	width: 8.85rem;
+	height: 1.2rem;
+}
+.collect span {
+	display: inline-block;
+	vertical-align: top;
+	width: 1.5rem;
+	height: 0.9rem;
+	border: 1px solid red;
+	color: red;
+	line-height: 0.9rem;
+	text-align: center;
+	border-radius: 0.2rem;
+	font-size: 0.6rem;
+}
+.kg {
+	width: 8.85rem;
+	height: 1.2rem;
+	font-size: 0.6rem;
+	color: #CCC;
+	line-height: 1.2rem;
+}
+.price {
+	width: 8.85rem;
+	height: 1.2rem;
+	font-size: 0.6rem;
+	color: red;
+	line-height: 1.2rem;
+}
+.price span {
+	color: #ccc;
+	text-decoration: line-through;
+}
+.select {
+	position: absolute;
+	width: 1.7rem;
+	height: 1.7rem;
+	right: 0.8rem;
+	bottom: 0.1rem;
+}
+.select span {
+	display: inline-block;
+	width: 1.7rem;
+	height: 1.7rem;
+	border-radius: 50%;
+	border:1px solid #C0C0C0;
+	line-height: 1.5rem;
+	text-align: center;
+	color: red;
+	font-size: 1.5rem;
+}
+
+/*模态窗口样式*/
+.models {
+	position: absolute;
+	top: 2.5rem;
+	left: 0;
+	width: 14.05rem;
+	z-index: 3;
+	display: none;
+}
+.models-list {
+	padding-bottom: 0.6rem;
+	background: #fff;
+}
+.models-list li {
+	float: left;
+	width: 3.9rem;
+	height: 1.6rem;
+	border: 1px solid #e0e0e0;
+	border-radius: 0.3rem;
+	text-align: center;
+	line-height: 1.6rem;
+	font-size: 0.7rem;
+	color: #333;
+	margin: 0.5rem 0 0 0.5rem;
+}
+.models-border {
+	background: #777;
+	height: 5rem;
+	opacity: 0.18;
+}
+.models-active {
+	background: #fff9d9;
+	border: 1px solid #ffd600;
+}

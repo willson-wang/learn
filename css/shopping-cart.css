@@ -1,0 +1,225 @@
+@charset "utf-8";
+/*包裹层*/
+#shopping-cart-wrap {
+	position: absolute;
+	width: 18.75rem;
+	background: #EFEFEF;
+	overflow-x: hidden;
+	overflow-y: auto;
+	top: 2.75rem;
+	left: 0;
+	display: none;
+}
+/*头部栏目*/
+#cart-header {
+	position: fixed;
+	width: 18.75rem;
+	background: #f9fafd;
+	left: 0;
+	top: 0;
+	display: none;
+}
+#cart-header p {
+	height: 2.7rem;
+	text-align: center;
+	line-height: 2.7rem;
+	font-size: 0.9rem;
+	color: #333;
+}
+
+/*收货人栏目*/
+#person-msg {
+	width: 18.75rem;
+	background: #fff;
+	margin-bottom: 0.5rem;
+}
+.detail-msg {
+	display: block;
+	position: relative;
+	width: 18.75rem;
+	font-size: 0.8rem;
+	color: #333;
+	border-bottom: 3px solid #ccc;
+	border-top: 3px solid #ccc;
+	/*-webkit-border-image:url(../img/bg.png) 30 30 round;*/
+	border-image:url(../img/bg.png) 5 5 round repeat;
+}
+.detail-msg dl dt {
+	float: left;
+	width: 5.25rem;
+	height: 1.5rem;
+	text-align: center;
+	line-height: 1.5rem;
+}
+.detail-msg dl dt:last-of-type {
+	height: 2.3rem;
+}
+.detail-msg dl dd {
+	float: left;
+	width: 10.35rem;
+	height: 1.5rem;
+	line-height: 1.5rem;
+}
+.detail-msg dl dd:last-of-type {
+	height: 1.9rem;
+	line-height: 0.8rem;
+	padding-top: 0.4rem;
+}
+.detail-msg span {
+	position: absolute;
+	width: 3rem;
+	height: 1rem;
+	right: 0.2rem;
+	top: 2.2rem;
+}
+
+/*已购商品清单栏目*/
+#shopping-list {
+	width: 18.75rem;
+	background: #fff;
+}
+.flash-market {
+	position: relative;
+	padding: 0.3rem 0 0 0.9rem;
+	border-bottom: 1px solid #C0C0C0;
+}
+.flash-market p:first-of-type {
+	height: 1.8rem;
+	font-size: 0.7rem;
+	color: #999;
+	line-height: 1.8rem;
+}
+.flash-market p:last-of-type {
+	height: 1.2rem;
+	font-size: 0.6rem;
+	color: #999;
+	line-height: 1.2rem;
+}
+.flash-market a {
+	position: absolute;
+	top: 0.3rem;
+	right: 0.8rem;
+	width: 4.3rem;
+	height: 1.5rem;
+	border: 1px solid red;
+	color: red;
+	line-height: 1.5rem;
+	text-align: center;
+	font-size: 0.8rem;
+	border-radius: 0.75rem;
+}
+.recive-time {
+	height: 3rem;
+	border-bottom: 1px solid #C0C0C0;
+	padding-left: 0.9rem;
+	font-size: 0.8rem;
+	color: #333;
+	line-height: 3rem;
+}
+.recive-time span {
+	display: inline-block;
+	margin: 0 5rem 0 0.8rem;
+	color: red;
+}
+.recive-write {
+	height: 3rem;
+	border-bottom: 1px solid #C0C0C0;
+	padding-left: 0.9rem;
+	font-size: 0.8rem;
+	color: #333;
+	line-height: 3rem;
+}
+.recive-write input {
+	width: 12.4rem;
+	height: 2rem;
+	border: 1px solid #cecece;
+	border-radius: 0.3rem;
+	font-size: 0.8rem;
+	line-height: 2rem;
+	padding-left: 0.3rem;
+	margin-left: 0.7rem;
+}
+.content-list {
+	width: 18.75rem;
+}
+.co-list {
+	position: relative;
+	width: 18.75rem;
+	border-bottom: 1px solid #C0C0C0;
+}
+.co-list dt {
+	float: left;
+	width: 3rem;
+	height: 4.8rem;
+	background: url(../img/dui.png) no-repeat center;
+	background-size: 40%;
+}
+.co-list dt:last-of-type {
+	background: url(../img/特仑苏.jpg) no-repeat center;
+	background-size: 80%;
+}
+.co-list dd {
+	float: left;
+	width: 12.05rem;
+	height: 2.4rem;
+	line-height: 2.4rem;
+	font-size: 0.8rem;
+	color: #333;
+	padding-left: 0.7rem;
+}
+.shop-math {
+	float: right;
+	margin: -0.4rem 3.25rem 0 0;
+}
+.co-list dd:last-of-type {
+	position: absolute;
+	width: 6.0rem;
+	height: 1.7rem;
+	right: 0;
+	top: 2.1rem;
+}
+.co-list dd:last-of-type span {
+	display: inline-block;
+	width: 1.7rem;
+	height: 1.7rem;
+	border-radius: 50%;
+	border:1px solid red;
+	line-height: 1.5rem;
+	text-align: center;
+	color: red;
+	font-size: 1.5rem;
+	margin-right: 1rem;
+}
+.select-all {
+	width: 18.75rem;
+}
+.select-all span {
+	float: left;
+	width: 3.7rem;
+	height: 3rem;
+	line-height: 3rem;
+	font-size: 0.7rem;
+	padding-left: 0.8rem;
+}
+.select-all span:first-of-type {
+	text-indent: 1.7rem;
+	background: url(../img/反选.png) no-repeat 0.9rem center;
+	background-size: 28%;
+}
+span.total-money {
+	width: 5.5rem;
+}
+span.total-money strong {
+	color: red;
+}
+.select-all button {
+	float: right;
+	width: 6rem;
+	height: 3rem;
+	font-size: 0.7rem;
+	text-align: center;
+	line-height: 3rem;
+	color: #333;
+	background: #FFD600;
+	border: 0;
+}

@@ -1,0 +1,277 @@
+@charset "utf-8";
+/*包裹层*/
+#crazy-wrap {
+	position: absolute;
+	top: 2.75rem;
+	left: 0;
+	width: 18.75rem;
+	background: #EFEFEF;
+	display: none;
+	z-index: 5;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+/*crazy头部*/
+#crazy-header {
+	position: fixed;
+	width: 18.75rem;
+	background: #f9fafd;
+	left: 0;
+	top: 0;
+	z-index: 6;
+	display: none;
+}
+#crazy-header span {
+	float: left;
+	height: 2.75rem;
+	font-size: 0.8rem;
+	font-weight: bold;
+	color: #333;
+}
+.back-index {
+	width: 3.6rem;
+	background: url(../img/left.png) no-repeat 0.5rem center;
+	background-size: 40%;
+}
+.crazy-title {
+	width: 11.5rem;
+	text-align: center;
+	line-height: 2.75rem;
+}
+.refresh {
+	width: 3.6rem;
+	background: url(../img/refresh.png) no-repeat 1.7rem center;
+	background-size: 40%;
+}
+
+/*crazy banner栏目*/
+#crazy-banner {
+	width: 18.75rem;
+	height: 8.2rem;
+	background: url(../img/crazy-banner.jpg) no-repeat center;
+	background-size: 100%;
+/*	margin-top: 2.75rem;*/
+}
+
+/*抢购事件栏目*/
+#crazy-time {
+	width: 18.75rem;
+}
+.time-list li {
+	float: left;
+	width: 4.65rem;
+	height: 3.8rem;
+	background-color: #272c2a;
+	padding: 0.2rem 0;
+	border-left: 1px solid #fff;
+	color: #fff;
+}
+li.crazy-active {
+	background-color: #fdd000;
+	color: #333;
+}
+.time-list li:first-of-type {
+	border: 0;
+}
+.time-list li span {
+	display: block;
+	width: 4.6785rem;
+	height: 1.2rem;
+	font-size: 0.7rem;
+	font-weight: bold;
+	line-height: 1.2rem;
+	text-align: center;
+}
+.time-list li span:last-of-type {
+	display: block;
+	width: 1rem;
+	height: 1rem;
+	margin: 0.3rem 0 0 1.8rem;
+	background: url(../img/trun-down.png) no-repeat -1.2rem 0;
+	background-size: 200%;
+} 
+.time-list li span.time-bg {
+	background: url(../img/trun-down.png) no-repeat 0.2rem 0;
+	background-size: 200%;
+}
+.time-list .count-time {
+	font-weight: normal;
+}
+
+/*倒计时栏目*/
+#back-time {
+	width: 18.75rem;
+	position: relative;
+	margin-top: 0.1rem;
+}
+.time-mark {
+	float: left;
+	width: 6.4rem;
+	height: 2rem;
+	background: #fdd000;
+}
+.time-mark span {
+	display: block;
+	width: 6.4rem;
+	height: 1rem;
+	color: #272c2a;
+	font-size: 0.6rem;
+	line-height: 1rem;
+	text-indent: 1rem;
+}
+.see-rule {
+	float: right;
+	width: 5.8rem;
+	height: 1.5rem;
+	font-size: 0.7rem;
+	color: #fff;
+	background: #272c2a;
+	text-align: center;
+	line-height: 1.5rem;
+	border-radius: 0.75rem;
+	margin: 0.4rem 0.6rem 0 0;
+}
+.trangle {
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-left: 0.5rem solid #fdd000;
+	border-bottom: 1rem solid transparent;
+	border-top: 1rem solid transparent;
+	top: 0;
+	left: 6.4rem;
+}
+
+/*疯狂抢购商品详情栏目*/
+#crazy-shopping {
+	width: 18.75rem;
+}
+.shopping-one {
+	display: none;
+}
+div.dis-bck {
+	display: block;
+}
+.shopping-one dl {
+	margin-bottom: 0.3rem;
+	background: #fff;
+}
+.shopping-one dt {
+	float: left;
+	width: 8.5rem;
+	height: 9rem;
+	background: url(../img/apple.jpg) no-repeat center;
+	background-size: 80%;
+	border-right: 1px solid #eee;
+}
+.shopping-one dd {
+	float: right;
+	width: 9.4rem;
+	height: 8.5rem;
+	padding-top: 0.5rem;
+}
+.crazy-shopping-title ,.crazy-shopping-kg{
+	height: 1.5rem;
+	font-size: 0.8rem;
+	line-height: 1.5rem;
+	color: #333;
+}
+.crazy-shopping-price {
+	height: 2.4rem;
+	line-height: 2.4rem;
+	font-size: 0.6rem;
+	color: #979697;
+}
+.crazy-shopping-price span:first-of-type {
+	color: #ff602c;
+}
+.crazy-shopping-price strong {
+	font-size: 1.2rem;
+}
+.crazy-shopping-buy {
+	width: 6.6rem;
+	height: 1.6rem;
+	font-size: 0.8rem;
+	color: #fff;
+	background: #ff602c;
+	text-align: center;
+	line-height: 1.6rem;
+	border-radius: 0.8rem;
+	margin: 0.3rem 0 0 0.3rem;
+}
+
+/*热卖栏目*/
+#hot-shopping {
+	width: 18.75rem;
+	margin-bottom: 1rem;
+}
+#hot-shopping p ,#active-rule p {
+	height: 2rem;
+	line-height: 2rem;
+	font-size: 1rem;
+	color: #333;
+	text-align: center;
+	border-bottom: 0.2rem solid #ccc;
+	background-image: url(../img/crazy-bg.png) 15 15 round;
+}
+.hot-list {
+	padding-left: 0.5rem;
+}
+.hot-list-detail {
+	position: relative;
+	float: left;
+	width: 8.7rem;
+	background: #fff;
+	margin: 0.6rem 0.3rem 0 0;
+}
+.hot-list-detail dt {
+	height: 8.7rem;
+	background: url(../img/milk.jpg) no-repeat center;
+	background-size: 80%;
+	border-bottom: 1px dashed #C0C0C0;
+}
+.hot-list-detail dd {
+	height: 1.3rem;
+	font-size: 0.6rem;
+	line-height: 1.3rem;
+	color: #333;
+	padding-left: 0.2rem;
+}
+dd.crazy-price-two {
+	color: #fc1400;
+}
+dd.crazy-price-two span {
+	color: #929292;
+	text-decoration: line-through;
+}
+dd.crazy-add {
+	position: absolute;
+	width: 1.7rem;
+	height: 1.7rem;
+	right: 0.6rem;
+	bottom: 0.3rem;
+}
+dd.crazy-add span {
+	display: inline-block;
+	width: 1.7rem;
+	height: 1.7rem;
+	border-radius: 50%;
+	border:1px solid #999;
+	line-height: 1.5rem;
+	text-align: center;
+	color: red;
+	font-size: 1.5rem;
+}
+
+/*活动规则栏目*/
+#active-rule {
+	width: 18.75rem;
+}
+.rule-list {
+	padding: 1rem 2rem 1.5rem 2rem ;
+	font-size: 0.65rem;
+	color: #595757;
+}
+.rule-list li {
+	line-height: 1rem;
+}

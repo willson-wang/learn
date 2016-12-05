@@ -1,0 +1,233 @@
+@charset "utf-8";
+body {
+	overflow: hidden;
+}
+
+/*包裹层div*/
+#index-wrap {
+	position: absolute;
+	top: 2.75rem;
+	left: 0;
+	width: 18.75rem;
+	background: #EFEFEF;
+	padding-top: 0.1px;
+	padding-bottom: 2.9rem;
+	overflow-x: hidden;
+	overflow-y: auto;
+	display: -none;
+}
+/*banner 轮播图lanmu*/
+.swiper-container {
+	width: 18.75rem;
+	height: 7rem;
+}
+/*.bg-one {
+	background: url(../img/201610201551492.jpg) no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.bg-two {
+	background: url(../img/2016111111374742.jpg) no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.bg-three {
+	background: url(../img/2016111416144696.jpg) no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.bg-four {
+	background: url(../img/2016112515283045.jpg) no-repeat;
+	background-size: cover;
+	background-position: center;
+}*/
+
+.bg-banner {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+/*疯狂秒杀栏目*/
+#special {
+	width: 18.75rem;
+	padding: 0.6rem 0;
+	/*background: #EFEFEF;*/
+}
+.sp-list {
+	/*height: 5.25rem;*/
+	font-size: 0;
+	text-align: justify;
+	background: #fff;
+}
+.sp-list li{
+	display: inline-block;
+	height: 5.25rem;
+	width: 4rem;
+	margin-right: 0.2rem;
+}
+/*.sp-one {
+	background: url(../img/闹钟.png) no-repeat 0 0.9rem;
+	background-size: 100%;
+	margin-left: 1rem;
+}
+.sp-two {
+	background: url(../img/飞机.png) no-repeat 0 0.9rem;
+	background-size: 100%;
+}
+.sp-three {
+	background: url(../img/大闸蟹.png) no-repeat 0 0.9rem;
+	background-size: 100%;
+}
+.sp-four {
+	background: url(../img/整箱购.png) no-repeat 0 0.9rem;
+	background-size: 100%;
+}*/
+.sp-menu {
+	background-repeat: no-repeat;
+	background-position: 0 0.9rem;
+	background-size: 100%;
+}
+.sp-list li a {
+	display: inline-block;
+	width: 4rem;
+	height: 5.25rem;
+	font-size: 0.7rem;
+	line-height: 8.2rem;
+	text-align: center;
+	color: #333;
+}
+
+/*推荐栏目*/
+#recommend {
+	width: 18.75rem;
+	padding-bottom: 0.6rem;
+}
+.re-list li {
+	float: left;
+	width: 6.25rem;
+}
+.re-list li a {
+	display: inline-block;
+	width: 6.25rem;
+	height: 8.1rem;
+	vertical-align: top;
+}
+.re-one {
+	background: url(../img/牛奶.jpg) no-repeat center;
+	background-size: 100%;
+}
+.re-list li .re-two {
+	width: 6.15rem;
+	background: url(../img/火龙果.jpg) no-repeat center;
+	background-size: 100%;
+	border-right: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+}
+.re-three {
+	background: url(../img/鲜果.jpg) no-repeat center;
+	background-size: 100%;
+}
+
+/*便利店栏目*/
+#store {
+	width: 18.75rem;
+	background: #fff;
+	/*padding-bottom: 0.6rem;*/
+}
+.store-title {
+	height: 3rem;
+	background: url(../img/便利店.png) no-repeat center;
+	background-size: 100%;
+}
+.store-pics {
+	font-size: 0;
+}
+.store-pics a {
+	display: inline-block;
+	width: 8.6rem;
+	height: 3rem;
+}
+.store-pics a:first-of-type {
+	background: url(../img/热销榜.jpg) no-repeat center;
+	background-size: 100%;
+	margin: 0 0.6rem;
+}
+.store-pics a:last-of-type {
+	background: url(../img/天天榜.jpg) no-repeat center;
+	background-size: 100%;
+}
+.st-list li {
+	float: left;
+	width: 3rem;
+	margin: 0 0.8rem;
+}
+.st-list li:first-of-type {
+	margin-left: 0.7rem;
+}
+.st-list li:last-of-type {
+	margin-right: 0rem;
+}
+.st-list li a {
+	display: inline-block;
+	width: 3rem;
+	height: 5.4rem;
+	font-size: 0.7rem;
+	color: #333;
+	text-align: center;
+	line-height: 8.2rem;
+}
+.st-list li .st-one {
+	background: url(../img/梨.png) no-repeat center -0.3rem;
+	background-size: 180%;
+}
+.st-two {
+	background: url(../img/梨.png) no-repeat center -0.3rem;
+	background-size: 180%;
+}
+.st-three {
+	background: url(../img/梨.png) no-repeat center -0.3rem;
+	background-size: 180%;
+}
+.st-four {
+	background: url(../img/更多.png) no-repeat center 0;
+	background-size: 160%;
+}
+.st-list-shop li {
+	float: left;
+	width: 9.375rem;
+	height: 3.75rem;
+}
+.st-list-shop li a {
+	display: inline-block;
+	width: 9.275rem;
+	height: 3.7rem;
+	border-top: 1px solid #ccc;
+}
+.st-shop-one {
+	background: url(../img/红牛.jpg) no-repeat center;
+	background-size: 100%;
+}
+.st-shop-two {
+	background: url(../img/红牛.jpg) no-repeat center;
+	background-size: 100%;
+	border-left: 1px solid #ccc;
+}
+.st-shop-three {
+	background: url(../img/红牛.jpg) no-repeat center;
+	background-size: 100%;
+}
+.st-shop-four {
+	background: url(../img/红牛.jpg) no-repeat center;
+	background-size: 100%;
+	border-left: 1px solid #ccc;
+}
+
+
+
+
+
+
+
+
+
